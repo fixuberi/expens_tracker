@@ -27,14 +27,14 @@ module ExpenseTracker
           'date'   => '2017-06-10'
       )
       zoo = post_expense(
-          'payee' => 'Zoo',
+          'payee'  => 'Zoo',
           'amount' => 15.25,
-          'date' => '2017-06-10'
+          'date'   => '2017-06-10'
       )
       groceries = post_expense(
-          'payee' => 'Foods',
+          'payee'  => 'Foods',
           'amount' => 95.20,
-          'date' => '2017-06-11'
+          'date'   => '2017-06-11'
       )
 
       get '/expenses/2017-06-10'
